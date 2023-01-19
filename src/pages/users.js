@@ -7,8 +7,19 @@ function UsersList({ users }) {
       <h1>Uses List Component</h1>
 
       {users.map((user) => (
-        <div key={user.id} style={{display:"flex",flexWrap:"wrap", heightL:"auto",alignItems:"center",justifyContent:"center",gap:"40px",textAlign:"left"}}>
-       <User user={user}/>
+        <div
+          key={user.id}
+          style={{
+            display: "flex",
+            flexWrap: "wrap",
+            heightL: "auto",
+            alignItems: "center",
+            justifyContent: "center",
+            gap: "40px",
+            textAlign: "left",
+          }}
+        >
+          <User user={user} />
         </div>
       ))}
     </>
