@@ -81,3 +81,5 @@ When to use static generation (Blog pages, ecommerce product pages, documentatio
 # Static Generation How ?
 
 By deafult NEXTJS pre-render every page in our app
+
+The HTMl for every page will automatically be statically generated when we build our application
