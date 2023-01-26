@@ -85,13 +85,13 @@ By deafult NEXTJS pre-render every page in our app
 The HTMl for every page will automatically be statically generated when we build our application
 
 # getStaticProps
-1) getStaticProps runs only on the server side
-2) The function will never run client-side
-3) The code you write inside getStaticProps won't even be included in JS bundle that is sent to the browser
-4) You can write server side code directly in getStaticProps
-5) Accessing the file systems using the modules or quering database can be done in getStaticProps
-6) You also don't have to worry about including API Keys in getStaticProps as that won't make it to the browser
+1) getStaticProps runs only on the server side.
+2) The function will never run client-side.
+3) The code you write inside getStaticProps won't even be included in JS bundle that is sent to the browser.
+4) You can write server side code directly in getStaticProps.
+5) Accessing the file systems using the modules or quering database can be done in getStaticProps.
+6) You also don't have to worry about including API Keys in getStaticProps as that won't make it to the browser.
 7) getStaticProps is allowed only in a page and can not run from a regular component file.
-8) It is used only for pre-rendering and not client-side data fetching
-9) getStaticProps should return an object and object contains a props key which is an object*
+8) It is used only for pre-rendering and not client-side data fetching.
+9) getStaticProps should return an object and object contains a props key which is an object*.
 10) getStaticProps will run at build time.
