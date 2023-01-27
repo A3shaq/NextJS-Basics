@@ -1,24 +1,32 @@
 import Image from "next/image";
 import Link from "next/link";
+import Button from "../ui/button";
+import classes from "./event-item.module.css"
 
 function EventItem(props) {
-  const { id, url, title, location } = props;
+  const { id, url, title, location, date } = props.item;
+  const humanReadableDate = new Date(date).toLocaleDateString("en-US", {
+    day: "numeric",
+    month: "long",
+    year: "numeric",
+  });
   return (
-    <li>
-      <Image alt="No Image Founded" src={url} />
+    <li className={classes.item}>
+      <img alt="No Image Founded" src={url} width="200" height={"100"}  />
 
-      <div>
-        <div>
-          <h2>TITLE</h2>
-          <div>
-            <time>DATE</time>
+      <div className={classes.content}>
+        <div className={classes.summary}>
+          <h2>{title}</h2>
+          <div className={classes.date}>
+            <time>{humanReadableDate}</time>
           </div>
-          <div>
-            <address>ADDRESS</address>
+          <div className={classes.address}>
+            <address>{location}</address>
           </div>
         </div>
-        <div>
-          <Link href={"/"}>Explore Event</Link>
+        <div className={classes.actions}>
+          {/* <Link href={`/events/${id}`}>Explore Event</Link> */}
+          <Button link={`/events/${id}`}>Explore Events</Button>
         </div>
       </div>
     </li>
