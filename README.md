@@ -95,3 +95,12 @@ The HTMl for every page will automatically be statically generated when we build
 8) It is used only for pre-rendering and not client-side data fetching.
 9) getStaticProps should return an object and object contains a props key which is an object*.
 10) getStaticProps will run at build time.
+
+# Project Plannings
+
+1) On Starting page I want list of events should be shown route "/"
+2) Setup a flag on events list weather the event is featured or not if event is featured them only shown in to the events page
+3) We have /events route (It should loaded all events)
+4) We will also have event details page with the route /event/id
+5) We will also have a filters of date and month 
+6) We will also have dynmaic slug page route /events/...slug

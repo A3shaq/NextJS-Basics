@@ -11,11 +11,11 @@ function Home() {
   return (
     <>
       <h1>Home Page</h1>
-      <Link href={"/blog"}>Blog</Link>
+      {/* <Link href={"/blog"}>Blog</Link>
       <p>
         <Link href={"/product"}>Products</Link>
       </p>
-      <button onClick={handleClick}>Place Order</button>
+      <button onClick={handleClick}>Place Order</button> */}
     </>
   );
 }
