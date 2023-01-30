@@ -134,7 +134,7 @@ export const DUMMY_EVENTS = [
     id: 12,
     title:
       "mollitia soluta ut rerum eos aliquam consequatur perspiciatis maiores",
-    url: "https://via.placeholder.com/600/66b7d2",
+    url: "https://images.unsplash.com/photo-1661961112835-ca6f5811d2af?ixlib=rb-4.0.3&ixid=MnwxMjA3fDF8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1172&q=80",
     thumbnailUrl: "https://via.placeholder.com/150/66b7d2",
     isFeatured: true,
     location: "Lorem ipsum",
@@ -206,7 +206,7 @@ export const DUMMY_EVENTS = [
     albumId: 1,
     id: 18,
     title: "laboriosam odit nam necessitatibus et illum dolores reiciendis",
-    url: "https://via.placeholder.com/600/1fe46f",
+    url: "https://images.unsplash.com/photo-1661961110372-8a7682543120?ixlib=rb-4.0.3&ixid=MnwxMjA3fDF8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=2070&q=80",
     thumbnailUrl: "https://via.placeholder.com/150/1fe46f",
     isFeatured: true,
     location: "Lorem ipsum",
@@ -250,7 +250,7 @@ function getAllEvents() {
 }
 
 function getEventById(id) {
-  return DUMMY_EVENTS.find((event) => event.id === id);
+  return DUMMY_EVENTS.find((event) => event.id == id);
 }
 
 export { getfeaturedEvents, getAllEvents, getEventById };

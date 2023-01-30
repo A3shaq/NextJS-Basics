@@ -5,7 +5,7 @@ function EventSummary({title=""}) {
 
   return (
     <section className={classes.summary}>
-      <h1>{title}</h1>
+      <h6 >{title}</h6>
     </section>
   );
 }
