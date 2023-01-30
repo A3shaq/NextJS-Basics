@@ -8,6 +8,8 @@ export const DUMMY_EVENTS = [
     isFeatured: false,
     location: "Lorem ipsum",
     date: "2021-05-30",
+    description:
+      "In publishing and graphic design, Lorem ipsum is a placeholder text commonly used to demonstrate the visual form of a document or a typeface without relying on meaningful content.",
   },
   {
     albumId: 1,
@@ -18,6 +20,8 @@ export const DUMMY_EVENTS = [
     isFeatured: false,
     location: "Lorem ipsum",
     date: "2021-05-30",
+    description:
+      "In publishing and graphic design, Lorem ipsum is a placeholder text commonly used to demonstrate the visual form of a document or a typeface without relying on meaningful content.",
   },
   {
     albumId: 1,
@@ -28,6 +32,8 @@ export const DUMMY_EVENTS = [
     isFeatured: false,
     location: "Lorem ipsum",
     date: "2021-05-30",
+    description:
+      "In publishing and graphic design, Lorem ipsum is a placeholder text commonly used to demonstrate the visual form of a document or a typeface without relying on meaningful content.",
   },
   {
     albumId: 1,
@@ -38,6 +44,8 @@ export const DUMMY_EVENTS = [
     isFeatured: false,
     location: "Lorem ipsum",
     date: "2021-05-30",
+    description:
+      "In publishing and graphic design, Lorem ipsum is a placeholder text commonly used to demonstrate the visual form of a document or a typeface without relying on meaningful content.",
   },
   {
     albumId: 1,
@@ -48,6 +56,8 @@ export const DUMMY_EVENTS = [
     isFeatured: true,
     location: "Lorem ipsum",
     date: "2021-05-30",
+    description:
+      "In publishing and graphic design, Lorem ipsum is a placeholder text commonly used to demonstrate the visual form of a document or a typeface without relying on meaningful content.",
   },
   {
     albumId: 1,
@@ -58,6 +68,8 @@ export const DUMMY_EVENTS = [
     isFeatured: true,
     location: "Lorem ipsum",
     date: "2021-05-30",
+    description:
+      "In publishing and graphic design, Lorem ipsum is a placeholder text commonly used to demonstrate the visual form of a document or a typeface without relying on meaningful content.",
   },
   {
     albumId: 1,
@@ -67,6 +79,8 @@ export const DUMMY_EVENTS = [
     thumbnailUrl: "https://via.placeholder.com/150/b0f7cc",
     location: "Lorem ipsum",
     date: "2021-05-30",
+    description:
+      "In publishing and graphic design, Lorem ipsum is a placeholder text commonly used to demonstrate the visual form of a document or a typeface without relying on meaningful content.",
   },
   {
     albumId: 1,
@@ -77,6 +91,8 @@ export const DUMMY_EVENTS = [
     isFeatured: true,
     location: "Lorem ipsum",
     date: "2021-05-30",
+    description:
+      "In publishing and graphic design, Lorem ipsum is a placeholder text commonly used to demonstrate the visual form of a document or a typeface without relying on meaningful content.",
   },
   {
     albumId: 1,
@@ -87,6 +103,8 @@ export const DUMMY_EVENTS = [
     isFeatured: true,
     location: "Lorem ipsum",
     date: "2021-05-30",
+    description:
+      "In publishing and graphic design, Lorem ipsum is a placeholder text commonly used to demonstrate the visual form of a document or a typeface without relying on meaningful content.",
   },
   {
     albumId: 1,
@@ -96,6 +114,8 @@ export const DUMMY_EVENTS = [
     thumbnailUrl: "https://via.placeholder.com/150/810b14",
     location: "Lorem ipsum",
     date: "2021-05-30",
+    description:
+      "In publishing and graphic design, Lorem ipsum is a placeholder text commonly used to demonstrate the visual form of a document or a typeface without relying on meaningful content.",
   },
   {
     albumId: 1,
@@ -106,6 +126,8 @@ export const DUMMY_EVENTS = [
     isFeatured: false,
     location: "Lorem ipsum",
     date: "2021-05-30",
+    description:
+      "In publishing and graphic design, Lorem ipsum is a placeholder text commonly used to demonstrate the visual form of a document or a typeface without relying on meaningful content.",
   },
   {
     albumId: 1,
@@ -117,6 +139,8 @@ export const DUMMY_EVENTS = [
     isFeatured: true,
     location: "Lorem ipsum",
     date: "2021-05-30",
+    description:
+      "In publishing and graphic design, Lorem ipsum is a placeholder text commonly used to demonstrate the visual form of a document or a typeface without relying on meaningful content.",
   },
   {
     albumId: 1,
@@ -127,6 +151,8 @@ export const DUMMY_EVENTS = [
     isFeatured: false,
     location: "Lorem ipsum",
     date: "2021-05-30",
+    description:
+      "In publishing and graphic design, Lorem ipsum is a placeholder text commonly used to demonstrate the visual form of a document or a typeface without relying on meaningful content.",
   },
   {
     albumId: 1,
@@ -137,6 +163,8 @@ export const DUMMY_EVENTS = [
     isFeatured: false,
     location: "Lorem ipsum",
     date: "2021-05-30",
+    description:
+      "In publishing and graphic design, Lorem ipsum is a placeholder text commonly used to demonstrate the visual form of a document or a typeface without relying on meaningful content.",
   },
   {
     albumId: 1,
@@ -147,6 +175,8 @@ export const DUMMY_EVENTS = [
     isFeatured: false,
     location: "Lorem ipsum",
     date: "2021-05-30",
+    description:
+      "In publishing and graphic design, Lorem ipsum is a placeholder text commonly used to demonstrate the visual form of a document or a typeface without relying on meaningful content.",
   },
   {
     albumId: 1,
@@ -157,6 +187,8 @@ export const DUMMY_EVENTS = [
     isFeatured: false,
     location: "Lorem ipsum",
     date: "2021-05-30",
+    description:
+      "In publishing and graphic design, Lorem ipsum is a placeholder text commonly used to demonstrate the visual form of a document or a typeface without relying on meaningful content.",
   },
   {
     albumId: 1,
@@ -167,6 +199,8 @@ export const DUMMY_EVENTS = [
     isFeatured: false,
     location: "Lorem ipsum",
     date: "2021-05-30",
+    description:
+      "In publishing and graphic design, Lorem ipsum is a placeholder text commonly used to demonstrate the visual form of a document or a typeface without relying on meaningful content.",
   },
   {
     albumId: 1,
@@ -177,6 +211,8 @@ export const DUMMY_EVENTS = [
     isFeatured: true,
     location: "Lorem ipsum",
     date: "2021-05-30",
+    description:
+      "In publishing and graphic design, Lorem ipsum is a placeholder text commonly used to demonstrate the visual form of a document or a typeface without relying on meaningful content.",
   },
   {
     albumId: 1,
@@ -187,6 +223,8 @@ export const DUMMY_EVENTS = [
     isFeatured: true,
     location: "Lorem ipsum",
     date: "2021-05-30",
+    description:
+      "In publishing and graphic design, Lorem ipsum is a placeholder text commonly used to demonstrate the visual form of a document or a typeface without relying on meaningful content.",
   },
   {
     albumId: 1,
@@ -198,6 +236,8 @@ export const DUMMY_EVENTS = [
     isFeatured: true,
     location: "Lorem ipsum",
     date: "2021-05-30",
+    description:
+      "In publishing and graphic design, Lorem ipsum is a placeholder text commonly used to demonstrate the visual form of a document or a typeface without relying on meaningful content.",
   },
 ];
 
@@ -209,4 +249,8 @@ function getAllEvents() {
   return DUMMY_EVENTS;
 }
 
-export { getfeaturedEvents, getAllEvents };
+function getEventById(id) {
+  return DUMMY_EVENTS.find((event) => event.id === id);
+}
+
+export { getfeaturedEvents, getAllEvents, getEventById };
