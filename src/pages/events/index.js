@@ -1,10 +1,14 @@
-function AllEvents(){
+import EventList from "@/components/events/EventList";
+import { getAllEvents } from "@/mock/dummyData";
 
-    return(
-        <>
-        <h1>All Events Page</h1>
-        </>
-    )
+function AllEvents() {
+  const allEvents = getAllEvents();
+  console.log({ allEvents });
+  return (
+    <>
+      <EventList events={allEvents} />
+    </>
+  );
 }
 
-export default AllEvents
+export default AllEvents;

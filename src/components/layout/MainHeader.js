@@ -10,9 +10,9 @@ function MainHeader(props) {
           <Link href={"/"}>Next Links</Link>
         </div>
 
-        <nav className={""}>
+        <nav className={classes.navigation}>
           <ul>
-            <li>
+            <li className={classes.logo}>
               <Link href={"/events"}>All Events</Link>
             </li>
           </ul>
